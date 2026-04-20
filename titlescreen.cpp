@@ -33,7 +33,10 @@ public:
             setSoundEffectVolume(1.0);
         }
         streamMusicFile("game/STORY.ogg");
-        tryPlayMugenSound(&mSounds, 1, 0);
+        if (!isOnDreamcast())
+        {
+            tryPlayMugenSound(&mSounds, 1, 0);
+        }
 
         setWrapperTitleScreen(getTitleScreen());
     }

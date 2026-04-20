@@ -16,6 +16,7 @@ tools
 release
 assets.cpp
 assets/debug/*
+build_dreamcast
 
 web/*
 *.html

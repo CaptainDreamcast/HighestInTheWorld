@@ -19,7 +19,7 @@ KOS_INIT_FLAGS(INIT_DEFAULT);
 
 #endif
 
-#define DEVELOP
+// #define DEVELOP
 
 void exitGame() {
 	shutdownPrismWrapper();
@@ -66,7 +66,9 @@ int main(int argc, char** argv) {
 		setMinimumLogType(LOG_TYPE_NONE);
 	}
 
-	setWrapperAbortEnabled(false);
+	if(!isOnDreamcast()){
+		setWrapperAbortEnabled(false);
+	}
 	setCurrentStoryDefinitionFile("game/INTRO.def", -1);
 	resetGame();
 	const auto startScreen = getTitleScreen();

@@ -256,8 +256,7 @@ static void findStartOfStoryBoard() {
 
 static std::string getStoryPlatformFilePath()
 {
-	if (isOnDreamcast()) return "_DC";
-	else return "";
+	return "";
 }
 
 static void loadStoryScreen() {
