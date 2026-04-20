@@ -1,0 +1,27 @@
+[Header]
+Sprites = game/OUTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+anim = 1
+
+[Text 1]
+Speaker = " "
+Text = "After traversing past the moon, you finally reach the phone network satellite, which was behind the moon for some reason, and to your shock- it's actually a space station!"
+
+[Image 1]
+anim = 2
+
+[Text 1]
+Speaker = " "
+Text = "You enter the space station and it's actually hot chick heaven! It's all female astronauts, and as you know, you're not shallow, you like educated engineer women so this is actually hot chick heaven for you."
+
+[Image 1]
+anim = 3
+
+[Text 1]
+Speaker = " "
+Text = "The end! Thanks a lot for playing! Your amazing speedrun time is: "
+
+[Title]

@@ -1,0 +1,27 @@
+[Header]
+Sprites = game/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+anim = 1
+
+[Text 1]
+Speaker = " "
+Text = "You are sitting in your gamedev cave, your iconic gamedev cave, waiting for Todd Howard to give you a call for a collaboration, so you can enrich him with your rich gamedev experience."
+
+[Image 1]
+anim = 2
+
+[Text 1]
+Speaker = " "
+Text = "SUDDENLY, you are added to a strange signal chat called "Hot chick heaven", but before you can look further, you are disconnected from the chat again. You think it's your poor reception in the LITERAL gamedev cave, but it's really the government that kicked you out again after adding you by accident."
+
+[Image 1]
+anim = 3
+
+[Text 1]
+Speaker = " "
+Text = "There is only one thing for you to do- go up to where the good reception is and reach not just heaven- HOT chick heaven. Will you be able to do it- will you become- THE HIGHEST IN THE WORLD?!"
+
+[Game]
